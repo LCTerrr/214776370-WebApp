@@ -8,17 +8,15 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-        <li><a href="#"class= "btn btn-primary active" aria-current="page">Home</a></li>
-        <li><a href="#"class= "btn btn-primary active" aria-current="page">About Us</a></li>
-        <li><a href="#"class= "btn btn-primary active" aria-current="page">Contact</a></li>
-    </nav>
+        <nav><a href="#" class= "btn btn-primary active" aria-current="page">Home</a></nav>
+        <nav><a href="#" class= "btn btn-primary active" aria-current="page">About Us</a></nav>
+        <nav><a href="#" class= "btn btn-primary active" aria-current="page">Contact</a></nav>
+    </header>
     <figure class="figure">
         <img src="https://img.freepik.com/free-vector/realistic-hexagonal-background_79603-1646.jpg?w=996&t=st=1705569600~exp=1705570200~hmac=1756c682517eba4cfc8aa8660c1a4ff703f50d597bd86fa2c57733899c5b7d26" alt="" class="figure-img img-fuild rouded">
         <figcaption class="figure-caption text-end">This is a image</figcaption>
     </figure>
-    </header>
-    <form action="row g-3 needs-validation" novalidate>
+    <form action="row-g-3-needs-validation" novalidate>
         <header class="col-md-4">
             <label for="validationcustom01" class="form-label">Username</label>
             <input type="text" class="form-control" id="validationcustom01" required>
@@ -29,17 +27,16 @@
         </header>
 
         <article>
-            <p>Gender</p>
+            <h2>Gender</h2>
             <div class="form-check form-check-inline">
                 <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <lebel class="form-check-label" for="inlineRadio1">Male</lebel>
+                <label for="inlineRadio1">Male</label>
             </div>
             <div class="form-check form-check-inline">
-                <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1" value="option2">
-                <lebel class="form-check-label" for="inlineRadio2">Female</lebel>
+                <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label for="inlineRadio2">Female</label>
+            </div>
             </article>
-        
-        </div>
         <div class="col-12">
             <div class="form-check">
                 <input type="checkbox" class="form-check-inline" value="" id="invalidCheck" required>
@@ -47,8 +44,8 @@
                     Agree terms and conditions
                 </label>
             </div>
-        </footer>
-        <footer class="col-12">
+        </div>
+        <footer>
             <button class="btn btn-primary" type="submit">Submit</button>
         </footer>
     </form>
