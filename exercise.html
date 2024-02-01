@@ -8,10 +8,14 @@
 </head>
 <body>
     <header>
-        <nav><a href="#" class= "btn btn-primary active" aria-current="page">Home</a></nav>
-        <nav><a href="#" class= "btn btn-primary active" aria-current="page">About Us</a></nav>
-        <nav><a href="#" class= "btn btn-primary active" aria-current="page">Contact</a></nav>
+        <nav>
+                <li><a href="#home" class= "btn btn-primary active" aria-current="page">Home</a></li>
+                <li><a href="#" class= "btn btn-primary active" aria-current="page">About Us</a></li>
+                <li><a href="#contact" class= "btn btn-primary active" aria-current="page">Contact</a></li>
+                <li><a href="#tables">Tables</a></li>
+        </nav>
     </header>
+    <h1 id="home">Home</h1>
     <figure class="figure">
         <img src="https://img.freepik.com/free-vector/realistic-hexagonal-background_79603-1646.jpg?w=996&t=st=1705569600~exp=1705570200~hmac=1756c682517eba4cfc8aa8660c1a4ff703f50d597bd86fa2c57733899c5b7d26" alt="" class="figure-img img-fuild rouded">
         <figcaption class="figure-caption text-end">This is a image</figcaption>
@@ -25,32 +29,38 @@
             <label for="validationcustom02" class="form-label">Password</label>
             <input type="text" class="form-control" id="validationcustom02" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number one uppercase and lowercase, and atleast 8 or more character" required>
         </header>
-
-        <article>
+        <div>
             <h2>Gender</h2>
-            <div class="form-check form-check-inline">
-                <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <form action="gender">
+                <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
                 <label for="inlineRadio1">Male</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
                 <label for="inlineRadio2">Female</label>
-            </div>
-            </article>
+                <input type="submit">
+            </form>
+        </div><hr>
         <div class="col-12">
             <div class="form-check">
                 <input type="checkbox" class="form-check-inline" value="" id="invalidCheck" required>
                 <label for="invalidCheck" class="form-check-label">
                     Agree terms and conditions
+                    <button class="btn btn-primary" type="submit">Submit</button>
                 </label>
             </div>
         </div>
         <footer>
-            <button class="btn btn-primary" type="submit">Submit</button>
+            
         </footer>
     </form>
-
-    <table class="tables">
+    <div class="contact" id="contact">
+        <h1>CONTACT</h1>
+        <ul>Contact Information
+            <li>Mobile No: 09760299479</li>
+            <li>email Address: lestertangonan85@gmail.com</li>
+    </ul>
+    </div>
+    <h1>TABLES</h1>
+    <table class="tables" id="tables">
         <thead>
             <tr>
                 <th>Name</th>
@@ -77,5 +87,8 @@
     <audio controls autoplay>
         <source src="https://www.youtube.com/watch?v=75UGXuyoFII">
     </audio>
+    <div>
+        <button><a href="C:\Portapps\214776370-WebApp\exerciseversion2.html">ExerciseVersion2</a></button>
+    </div>
 </body>
 </html>
