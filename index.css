@@ -1,8 +1,14 @@
 body {
     text-align: center;
 }
+.btn {
+    padding: 50px;
+}
 form{
     border-left: 10px;
     align-items: flex-start;
     text-align: start;
+}
+button .iphone {
+    text-align: center;
 }
