@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick hummus recipe</title>
+</head>
+<body>
+    <header>
+        <h1>Formatting Elements</h1>
+    </header>
+
+    <section>
+        <h2>Address Element</h2>
+        <address>
+            Written by <a href="lestertangonan85@gmail.com">Lester Tangonan</a>.<br>
+            Facebook: <a href="https://www.facebook.com/retsel.nanongat">Lester Codyamat Tangonan</a><br>
+            Instagram: <a href="https://www.instagram.com/terrrcx/">Terrrcx</a><br>
+            Tiktok: <a href="https://www.tiktok.com/@6sixey">6sixey</a><br>
+            Twitter: <a href="https://twitter.com/Terrrssuu">Terrrssuu</a><br>
+            HelloWorld <br>
+            Patice Coding! <br>
+            Country CLub Village, Baguio City <br>
+        </address>
+    </section>
+    <section>
+        <h2>Italic Text</h2>
+        <p>This text is <i>Italic</i></p>
+    </section>
+
+    <section>
+        <h2>Emphasized Text</h2>
+        <p>This text is <em>Emphasized</em></p>
+    </section>
+
+    <section>
+        <h2>Bold Text</h2>
+        <p>This text is <b>Bold</b></p>
+    </section>
+
+    <section>
+        <h2>Underlined Text</h2>
+        <p>This text is <u>Underlined</u></p>
+    </section>
+
+    <section>
+        <h2>Strong Text</h2>
+        <p>This text is <strong>Strong</strong></p>
+    </section>
+
+    <section>
+        <h2>Highlighted Text</h2>
+        <p>This text is <mark>Highlighted</mark></p>
+    </section>
+
+    <section>
+        <h2>Superscript text</h2>
+        <p>This text is <sup>Superscripted</sup></p>
+    </section>
+
+    <section>
+        <h2>Subsripted Text</h2>
+        <p>This text is <sub>Subscripted</sub></p>
+    </section>
+
+    <section>
+        <h2>Deleted Text</h2>
+        <p>This text is <del>Deleted</del></p>
+        <p>I want to <del>delete</del> my message.</p>
+    </section>
+
+    <section>
+        <h2>Deleted and Inserted</h2>
+        <p>This text is <del>Deleted</del> and <ins>Inserted</ins></p>
+        <p>My favorite color is <del>Blue</del> Black.</p>
+    </section>
+
+    <section>
+        <h2>Bigger text</h2>
+        <big>This text is Bigger</big>
+    </section>
+
+    <section>
+        <h2>Smaller Text</h2>
+        <small>This text is Small</small>
+    </section>
+
+    <section>
+        <h2>BDO Element</h2>
+        <p>This paragraph will go right to left</p>
+        <p><bdo dir="rtl">This paragraph will go right to left</bdo></p>
+    </section>
+
+    <section>
+        <h2>BDI Element</h2>
+        <ul>
+            <li>Mr.<bdi>Tim Berners-Lee</bdi> he wrote the first version of HTML</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Var Element</h2>
+        <p>The area of triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical.</p>
+    </section>
+
+    <section>
+        <h2>Template</h2>
+        <p>Click on the button to show the hidden content</p>
+        <button onclick = "showContent()">Click Me!</button>
+        <template>
+            <h2>Ball</h2>
+            <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/9a44621a281149709ca4ae420163c466_9366/All_Court_3.0_Ball_Orange_HM4975_01_standard.jpg" width="214" height="204">
+        </template>
+        <script>
+            function showContent() {
+                let temp = document.getElementsByTagName ("template")[0];
+                let clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+            }
+        </script>
+    </section>
+</body>
+</html>
