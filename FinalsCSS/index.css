@@ -1,0 +1,30 @@
+body{
+    margin-top: 30px;
+}
+h1{
+    color: red;
+    font: bold;
+    font-size: 30px;
+    padding: 50%;
+}
+p{
+    color: blue;
+    padding: 10px;
+    font-size: 40px;
+}
+ul *{
+    color: green;
+    font-size: 20px;
+}
+p em{
+    color: black;
+    font-size: 30px;
+}
+section p em{
+    color: black;
+    font-size: 30px;
+}
+section ul p {
+    color: chocolate;
+    font-size: 20px;
+}
